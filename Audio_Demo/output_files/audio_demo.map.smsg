@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at DE1_SoC_Audio_Example.v(51): object "HEX0" differs only in case from object "hex0" in the same scope File: D:/dev/ece241/project/Audio_Demo/DE1_SoC_Audio_Example.v Line: 51
+Info (10281): Verilog HDL Declaration information at DE1_SoC_Audio_Example.v(51): object "HEX1" differs only in case from object "hex1" in the same scope File: D:/dev/ece241/project/Audio_Demo/DE1_SoC_Audio_Example.v Line: 51

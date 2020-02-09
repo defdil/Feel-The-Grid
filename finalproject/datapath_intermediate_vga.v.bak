@@ -1,0 +1,67 @@
+module datapath_intermediate_vga(CLOCK_50, VGA_CLK, VGA_HS, VGA_VS, VGA_BLANK_N, VGA_SYNC_N, VGA_R, VGA_G, VGA_B, gpio, reset, ld_start, ld_read, ld_input, ld_evaluate, board);
+	input CLOCK_50, ld_evaluate, ld_input, ld_read, ld_start, reset;
+	input [8:0] board;
+
+	output VGA_CLK, VGA_HS, VGA_VS, VGA_BLANK_N, VGA_SYNC_N;
+	output [9:0] VGA_R, VGA_G, VGA_B;
+
+	wire [3:0] position, clock_count;
+	wire [8:0] color_vga;
+	reg [8:0] color_vga_reg;
+	reg [3:0] position_reg;
+	reg [9:0] clock_count; 
+
+	localparam green = 9'b000_111_000,
+	 			//white = 9'b111_111_111 ,
+				white = 9'b111_000_111 ,
+	  			red = 9'b111_000_000;
+
+	vga_main v0(.CLOCK_50(CLOCK_50), .VGA_CLK(VGA_CLK), .VGA_HS(VGA_HS), .VGA_VS(VGA_VS), .VGA_BLANK_N(VGA_BLANK_N), .VGA_SYNC_N(VGA_SYNC_N),
+	 .VGA_R(VGA_R), .VGA_G(VGA_G), .VGA_B(VGA_B), .gpio(position), .reset(~reset), .color_vga(color_vga));
+
+	always @(posedge CLOCK_50) begin
+		if(ld_read) begin
+			if (clock_count == 10'd1000) begin
+				if (counter <= 4'd8) begin
+					case (counter)
+						4'd8: begin
+							position_reg = 4'b1111;
+						end
+						4'd7: begin 
+							position_reg = 4'b1110;
+						end
+						4'd6: begin 
+							position_reg = 4'b1101;
+						end
+						4'd5: begin 
+							position_reg = 4'b1011;
+						end
+						4'd4: begin
+						 	position_reg = 4'b1010;
+						end
+						4'd3: begin 
+							position_reg = 4'b1001;
+						end
+						4'd2: begin 
+							position_reg = 4'b0111;
+						end
+						4'd1: begin 
+							position_reg = 4'b0110;
+						end
+						4'd0: begin 
+							position_reg = 4'b0101;
+						end
+						default: position_reg = 4'b0;
+					endcase
+					color_vga_reg = board[counter] ? green : white;
+					clock_count = 9'b0;
+					counter = counter + 1;
+				end
+			end // if (clock_count ==9'd496)
+			else clock_count = clock_count + 1;
+		end
+	end
+
+	assign position = position_reg;
+	assign color_vga = color_vga_reg;
+endmodule

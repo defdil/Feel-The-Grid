@@ -1,0 +1,24 @@
+
+State Machine - |finalproject|datapath_intermediate_vga:sarhad|vga_main:v0|control_vga:c0|current_state
+Name current_state.S_LOAD_COORD current_state.S_DRAW current_state.S_LOAD_COORD_WAIT 
+current_state.S_LOAD_COORD 0 0 0 
+current_state.S_LOAD_COORD_WAIT 1 0 1 
+current_state.S_DRAW 1 1 0 
+
+State Machine - |finalproject|audio_main:defne|avconf:avc|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 
+
+State Machine - |finalproject|control:c0|current_state
+Name current_state.S_EVALUATE current_state.S_EVALUATE_LOAD current_state.S_INPUT current_state.S_INPUT_LOAD current_state.S_READING current_state.S_READ_LOAD current_state.S_START current_state.S_SET_LEVEL current_state.S_EVALUATE_WAIT 
+current_state.S_SET_LEVEL 0 0 0 0 0 0 0 0 0 
+current_state.S_START 0 0 0 0 0 0 1 1 0 
+current_state.S_READ_LOAD 0 0 0 0 0 1 0 1 0 
+current_state.S_READING 0 0 0 0 1 0 0 1 0 
+current_state.S_INPUT_LOAD 0 0 0 1 0 0 0 1 0 
+current_state.S_INPUT 0 0 1 0 0 0 0 1 0 
+current_state.S_EVALUATE_LOAD 0 1 0 0 0 0 0 1 0 
+current_state.S_EVALUATE 1 0 0 0 0 0 0 1 0 
+current_state.S_EVALUATE_WAIT 0 0 0 0 0 0 0 1 1 

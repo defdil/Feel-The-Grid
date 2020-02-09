@@ -1,0 +1,2 @@
+module datapath_intermediate_vga(clock, );
+endmodule

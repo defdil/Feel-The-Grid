@@ -1,0 +1,12 @@
+module finalproject(SW, KEY, CLOCK_50);
+	input [9:0] SW;
+	input [3:0] KEY;
+	
+	wire reset, go, input_tile;
+	
+	assign KEY[0] = go;
+	assign KEY[1] = input_tile;
+	assign SW[9] = reset;
+	
+endmodule
+

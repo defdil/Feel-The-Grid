@@ -1,0 +1,6 @@
+
+State Machine - |Lab7Part3|control:c0|current_state
+Name current_state.S_LOAD_COORD current_state.S_DRAW current_state.S_LOAD_COORD_WAIT 
+current_state.S_LOAD_COORD 0 0 0 
+current_state.S_LOAD_COORD_WAIT 1 0 1 
+current_state.S_DRAW 1 1 0 

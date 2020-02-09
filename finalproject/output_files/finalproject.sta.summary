@@ -1,0 +1,165 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.313
+TNS   : -4.313
+
+Type  : Slow 1100mV 85C Model Setup 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -2.466
+TNS   : -118.655
+
+Type  : Slow 1100mV 85C Model Setup 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 34.075
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -34.402
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.772
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.754
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.203
+TNS   : -4.203
+
+Type  : Slow 1100mV 0C Model Setup 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -2.440
+TNS   : -114.193
+
+Type  : Slow 1100mV 0C Model Setup 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 34.213
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.394
+TNS   : -33.657
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.772
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.736
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.459
+TNS   : -3.459
+
+Type  : Fast 1100mV 85C Model Setup 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.139
+TNS   : -50.111
+
+Type  : Fast 1100mV 85C Model Setup 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 36.264
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.048
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.818
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.881
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.941
+TNS   : -2.941
+
+Type  : Fast 1100mV 0C Model Setup 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.021
+TNS   : -42.732
+
+Type  : Fast 1100mV 0C Model Setup 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 36.640
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.126
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 0.217
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'audio_main:defne|avconf:avc|mI2C_CTRL_CLK'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~FRACTIONAL_PLL|vcoph[0]'
+Slack : 1.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 8.810
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sarhad|v0|VGA|mypll|altpll_component|auto_generated|generic_pll1~PLL_OUTPUT_COUNTER|divclk'
+Slack : 18.881
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="detect_data" version="1.3.0" audacityversion="2.3.0" sel0="0.0393705906" sel1="0.1281833182" vpos="0" h="0.0000000000" zoom="1092.1858002756" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Encoded by" value="SONY IC RECORDER 7.4.0"/>
+		<tag name="ARTIST" value="My Recording"/>
+		<tag name="TITLE" value="180923_1205"/>
+	</tags>
+	<wavetrack name="detect" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="16272">
+				<waveblock start="0">
+					<simpleblockfile filename="e080874a.au" len="16272" min="-0.595662" max="0.595644" rms="0.050083"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

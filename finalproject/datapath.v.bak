@@ -1,0 +1,9 @@
+module datapath (go, reset, input_tile, gp_input, clock, ld_read, ld_input, ld_evaluate);
+	always @ (posedge clock) begin
+		if (ld_read) begin
+		end
+	end
+
+
+endmodule
+

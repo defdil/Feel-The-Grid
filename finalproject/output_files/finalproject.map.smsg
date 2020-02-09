@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at datapath_intermediate_vga.v(27): always construct contains both blocking and non-blocking assignments File: D:/dev/ece241/project/finalproject/datapath_intermediate_vga.v Line: 27
